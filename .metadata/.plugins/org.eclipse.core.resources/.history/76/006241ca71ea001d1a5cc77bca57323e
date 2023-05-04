@@ -23,11 +23,6 @@ public class Program {
 			System.out.println(ex);
 			System.out.println("No se puede convertir letras a numero");
 		}
-		
-		String decimalString = "2.0";
-		double decimalDouble = 0.0;
-		decimalDouble = Double.parseDouble(decimalString);
-		System.out.println(decimalDouble);
 	}
 
 }

@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="indra.utils.Consola"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="indra.talentCamp.utils.Consola"/>
 </qualifiedTypeNameHistroy>

@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="indra.utils.Consola"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="indra.talentCamp.utils.Consola"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 </qualifiedTypeNameHistroy>

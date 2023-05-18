@@ -96,9 +96,35 @@ public class Program {
 		//
 		//REDUCE
 		//
+		//recibe dos parametros, el primero es el valor inicial, el sgeundo la expresion lambda
+		//int max = numeros.stream().reduce(<VALOR_INICIAL> , <Expresion lambda (valorAcumulado,valorActual)>);
+				
 		int sumatoria = numeros.stream().reduce(0, (acumulado,valorActual) -> acumulado+valorActual);
 		System.out.println(sumatoria);
 		
+		
+//DADA UNA LISTA DE OBJETOS ESTUDIANTE, utiliza una expresion para obtener todos los estudiantes con calificacion > 90
+		//List<Estudiantes> filtrados = estudiantes.stream().filter(e-> e.getCalificacion() > 90).collect(Collectors.toList());
+		//o estudiantes.filter(e -> e.getCalificaicon() > 90).forEach(system.out::println);
+		
+//DADO UN ARREGLO DE ENTEROS, USA UNA EXPRESION PARA ENCNOTRAR EL NUMERO MAS GRANDE
+		//int[] numeros = {1,2,3,4,5}; List<int> numeros = ...;
+		int max = numeros.stream().max((a,b)->(a-b)).orElse(0);
+//otra
+		//numeros.stream().reduce(0, (a,b) -> Math.max(a,b));
+//		Valor Inicial 0
+//		array 1,2,4,3
+//		(0,1) -> 1
+//		(1,2) -> 2
+//		(2,4) -> 4
+//		(4,3) -> 4
+		
+//DADA UNA LISTA DE NUMEROS, OBTEN LA SUMA DE TODOS LOS NUMEROS PARES
+		numeros.stream().filter(n -> n%2==0).mapToInt(n->n).sum();
+		numeros.stream().filter(n -> n%2==0).reduce(0, (a,b)->a+b);
+
+//DADA UNA LISTA DE PRODUCTOS OBTEN EL PRODUCTO MAS CARO
+		//productos.stream().max((a,b)-> a.getPrecio() - b.getPrecio()).orElse(0);
 	}
 
 }

@@ -1,4 +1,4 @@
-package indra.talentCamp.ejercicio;
+package indra.talentCamp.banco;
 
 import java.util.ArrayList;
 import java.util.Collections;

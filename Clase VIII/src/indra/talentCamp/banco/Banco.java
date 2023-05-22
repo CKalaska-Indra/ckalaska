@@ -1,4 +1,4 @@
-package indra.talentCamp.ejercicio;
+package indra.talentCamp.banco;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,6 +25,6 @@ public class Banco {
 	}
 	
 	public CuentaBancaria buscarCuenta(int numeroCuenta){
-		return null
+		return null;
 	}
 }

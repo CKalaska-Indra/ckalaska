@@ -1,4 +1,4 @@
-package indra.talentCamp.ejercicio;
+package indra.talentCamp.banco;
 
 public class SaldoInsuficienteException extends Exception{
 

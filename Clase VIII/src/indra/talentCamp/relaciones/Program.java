@@ -2,14 +2,14 @@ package indra.talentCamp.relaciones;
 
 import org.mozilla.javascript.Context;
 
+import indra.talentCamp.banco.CajaAhorro;
+import indra.talentCamp.banco.Cliente;
+import indra.talentCamp.banco.CuentaBancaria;
+import indra.talentCamp.banco.Movimiento;
 import indra.talentCamp.composite.Multiplicacion;
 import indra.talentCamp.composite.Operacion;
 import indra.talentCamp.composite.Suma;
 import indra.talentCamp.composite.Valor;
-import indra.talentCamp.ejercicio.CajaAhorro;
-import indra.talentCamp.ejercicio.Cliente;
-import indra.talentCamp.ejercicio.CuentaBancaria;
-import indra.talentCamp.ejercicio.Movimiento;
 
 public class Program {
 

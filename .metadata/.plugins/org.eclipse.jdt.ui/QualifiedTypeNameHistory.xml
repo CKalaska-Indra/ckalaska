@@ -33,4 +33,10 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="indra.talentCamp.database.services.PersonaService"/>
 </qualifiedTypeNameHistroy>
